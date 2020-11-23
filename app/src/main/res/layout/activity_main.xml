@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <kr.co.gstech.exoplayer.rtsp_sample.CustomExoPlayerView
+        android:id="@+id/customPlayerView"
+        android:layout_width="640dp"
+        android:layout_height="match_parent" />
+
+    <kr.co.gstech.exoplayer.rtsp_sample.CustomExoPlayerView
+        android:id="@+id/customPlayerView2"
+        android:layout_width="640dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="640dp"/>
+
+</FrameLayout>
